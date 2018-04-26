@@ -1,0 +1,8 @@
+# .gitignore
+
+# ignore hidden file types
+.*
+~*
+
+# whitelist this file
+!.gitignore
