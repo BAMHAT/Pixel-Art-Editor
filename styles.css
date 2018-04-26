@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table {
+    layout: fixed;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+td.light {
+  background-color: #CCCCCC;
+}
+
+td.dark {
+  background-color: #AAAAAA;
+}
+
+td:hover {
+  background-color: #999999;
+}
+
+input[type=number] {
+    width: 6em;
+}
